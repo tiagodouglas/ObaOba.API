@@ -1,0 +1,14 @@
+/home/tiagodouglas/Projetos/ObaOba.API/bin/Debug/netcoreapp2.1/ObaOba.API.deps.json
+/home/tiagodouglas/Projetos/ObaOba.API/bin/Debug/netcoreapp2.1/ObaOba.API.runtimeconfig.json
+/home/tiagodouglas/Projetos/ObaOba.API/bin/Debug/netcoreapp2.1/ObaOba.API.runtimeconfig.dev.json
+/home/tiagodouglas/Projetos/ObaOba.API/bin/Debug/netcoreapp2.1/ObaOba.API.dll
+/home/tiagodouglas/Projetos/ObaOba.API/bin/Debug/netcoreapp2.1/ObaOba.API.pdb
+/home/tiagodouglas/Projetos/ObaOba.API/obj/Debug/netcoreapp2.1/ObaOba.API.csprojAssemblyReference.cache
+/home/tiagodouglas/Projetos/ObaOba.API/obj/Debug/netcoreapp2.1/ObaOba.API.csproj.CoreCompileInputs.cache
+/home/tiagodouglas/Projetos/ObaOba.API/obj/Debug/netcoreapp2.1/ObaOba.API.RazorAssemblyInfo.cache
+/home/tiagodouglas/Projetos/ObaOba.API/obj/Debug/netcoreapp2.1/ObaOba.API.RazorAssemblyInfo.cs
+/home/tiagodouglas/Projetos/ObaOba.API/obj/Debug/netcoreapp2.1/ObaOba.API.AssemblyInfoInputs.cache
+/home/tiagodouglas/Projetos/ObaOba.API/obj/Debug/netcoreapp2.1/ObaOba.API.AssemblyInfo.cs
+/home/tiagodouglas/Projetos/ObaOba.API/obj/Debug/netcoreapp2.1/ObaOba.API.RazorTargetAssemblyInfo.cache
+/home/tiagodouglas/Projetos/ObaOba.API/obj/Debug/netcoreapp2.1/ObaOba.API.dll
+/home/tiagodouglas/Projetos/ObaOba.API/obj/Debug/netcoreapp2.1/ObaOba.API.pdb
