@@ -17,6 +17,10 @@ using ObaOba.API.Data;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using System.Net.WebSockets;
+using Microsoft.AspNetCore.Http;
+using System.Threading;
+using ObaOba.API.Hubs;
 
 namespace ObaOba.API
 {
@@ -41,6 +45,8 @@ namespace ObaOba.API
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             services.AddCors();
+            services.AddSignalR();
+
             services.AddScoped<IAuthRepository, AuthRepository>();
             services.AddScoped<IAuthService, AuthService>();
 
@@ -68,6 +74,11 @@ namespace ObaOba.API
             }
 
             app.UseHttpsRedirection();
+            app.UseCors();
+            app.UseSignalR(routes =>
+            {
+                routes.MapHub<LocationHub>("/hubs/location");
+            });
             app.UseMvc();
         }
     }
